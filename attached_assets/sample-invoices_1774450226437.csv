@@ -1,0 +1,10 @@
+date,vendor,description,module,ghg_scope,activity,amount,quantity,unit,building_id,owner_share_pct,tenant_share_pct,reported_by,transport_mode,traveler_count,nights,round_trip,employees_covered,survey_period,notes
+2026-03-02,Gas Supplier,Boiler gas invoice,Building,Scope 1,Natural gas,0,1200,kWh,main-office,100,0,building_owner,,,,,,,On-site gas for owner-controlled heating
+2026-03-03,City Power,Electricity invoice,Building,Scope 2,Electricity,0,890,kWh,main-office,50,50,shared_meter,,,,,,,Main office electricity split between owner and tenants
+2026-03-04,District Heat,Purchased heat invoice,Building,Scope 2,Purchased heat,0,640,kWh,main-office,30,70,tenant,,,,,,,Tenant-billed heat in mixed building
+2026-03-05,Transit Survey,Employee commute by car,Personnel,Scope 3,Employee commute by car,0,420,km,,,organization,car,,,,12,weekly,Weekly commuting survey estimate
+2026-03-06,Transit Survey,Employee commute by bus,Personnel,Scope 3,Employee commute by bus,0,280,km,,,organization,bus,,,,8,weekly,Weekly commuting survey estimate
+2026-03-07,ReWaste,Mixed waste pickup,Waste,Scope 3,Mixed waste,0,85,kg,,,,,,,,,,Office waste
+2026-03-10,Lithuanian Rail,Client travel,Travel,Scope 3,Rail travel,0,310,km,,,organization,rail,1,,false,,,,Regional trip
+2026-03-12,Air Baltic,Conference flight,Travel,Scope 3,Air travel,0,1850,km,,,organization,air,1,,true,,,,Return flight
+2026-03-13,Hotel Vilnius,Conference stay,Travel,Scope 3,Hotel stay,0,2,night,,,organization,hotel,1,2,false,,,,Accommodation
